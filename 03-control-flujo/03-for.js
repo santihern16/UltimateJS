@@ -24,3 +24,9 @@ let user = {
 for (let prop in user) {
     console.log(prop, user[prop]);
 }
+
+let frutas = ["banana", "manzana", "pera"];
+
+for(index in frutas){
+    console.log(index, frutas[index]);
+}
